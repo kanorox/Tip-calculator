@@ -1,7 +1,3 @@
-const inputValue = function getValue(obj) {
-  return +obj.value;
-};
+const buttons = document.querySelectorAll(".percentBtn");
 
-const percentageCalc = document.querySelector("pecentBtn3");
-
-console.log(percentageCalc);
+console.log(buttons);
